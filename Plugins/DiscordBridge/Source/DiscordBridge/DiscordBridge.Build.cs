@@ -11,7 +11,7 @@ public class DiscordBridge : ModuleRules
         string DiscordFilesPath = Path.GetFullPath(Path.Combine(ModuleDirectory, "../../ThirdParty/discord_game_sdk/cpp"));
         
         // Add the absolute path to the include directory for Discord SDK
-        PublicIncludePaths.Add(Path.Combine(DiscordFilesPath, "include"));
+        PublicIncludePaths.Add(Path.Combine(DiscordFilesPath));
 
         // Determine platform-specific binary folder and set absolute paths
         string BinariesPath = Path.GetFullPath(Path.Combine(ModuleDirectory, "../../Binaries"));
@@ -29,7 +29,7 @@ public class DiscordBridge : ModuleRules
         }
         
         // Standard Unreal Engine dependency setup
-        PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "Slate", "SlateCore" });
+        PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "Slate", "SlateCore","DeveloperSettings"  });
         PrivateDependencyModuleNames.AddRange(new string[] { });
     }
 }

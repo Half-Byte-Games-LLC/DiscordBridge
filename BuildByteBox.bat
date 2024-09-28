@@ -1,0 +1,1 @@
+"C:\UE_5.3\Engine\Build\BatchFiles\RunUAT.bat" BuildPlugin -Plugin="F:\UE_5.3\DiscordBridge\Plugins\DiscordBridge\DiscordBridge.uplugin" -Package="F:\Plugins\DiscordBridge\UE5.3 -Rocket -VS2019

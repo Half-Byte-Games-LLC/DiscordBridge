@@ -19,7 +19,7 @@ public:
 
 	// Function to update Discord Rich Presence
 	UFUNCTION(BlueprintCallable, Category = "Discord")
-	void UpdateRichPresence(FString State, FString Details);
+	void UpdateRichPresence(FString State, FString Details, FString LargeImageKey, FString LargeImageText, FString SmallImageKey, FString SmallImageText, int32 PartySize, int32 MaxPartySize, FString PartyId, FString JoinSecret, FString SpectateSecret, bool bIsInstance);
 
 protected:
 	virtual void BeginPlay() override;

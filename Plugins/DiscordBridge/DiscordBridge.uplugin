@@ -7,7 +7,7 @@
 	"Category": "Discord",
 	"CreatedBy": "Half Byte Games LLC",
 	"CreatedByURL": "",
-	"DocsURL": "",
+	"DocsURL": "https://docs.google.com/document/d/e/2PACX-1vTcUR4aJvpXiiNq2_6MJJX5414_OfGSxkEtNspjkJHEdycChqfM9TPFkhP_2ZFk40E8Tk_7DVohiQFl/pub",
 	"MarketplaceURL": "",
 	"CanContainContent": true,
 	"IsBetaVersion": false,
@@ -17,7 +17,10 @@
 		{
 			"Name": "DiscordBridge",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
 		}
 	]
 }
