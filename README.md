@@ -68,4 +68,4 @@ DiscordBridge is licensed under the [MIT License](LICENSE). You’re free to use
 ## 🛡 Support
 If you encounter any issues or have questions:
 - Open an issue on GitHub.
-- Join our [Discord Community](https://discord.gg/YOUR-DISCORD-LINK).
+- Join our [Discord Community](https://discord.gg/sAsegHESsz).
